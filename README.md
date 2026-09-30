@@ -58,13 +58,16 @@ gcloud run deploy simulador-solar --source . --region us-central1 --project simu
 - consulta do ano meteorológico típico (TMY) do PVGIS;
 - catálogo de módulos mantido em `panels.json`;
 - múltiplos grupos de módulos com quantidade, linhas e distância configuráveis;
+- cor exclusiva configurável para cada grupo, compartilhada pelo 3D e pelos gráficos;
 - inclinação, azimute e rotação independentes por grupo;
 - visualização 3D da matriz completa, cotas e trajetória solar;
 - data e hora locais selecionáveis, com posição, nascer e pôr do sol;
 - estimativa anual, mensal, média diária e potência na hora selecionada;
 - curva diária de potência entre o nascer e o pôr do sol, com marcação da hora escolhida;
+- gráfico mensal com barras empilhadas, cores e participação de cada grupo no total;
 - operação com inversor AC ou em modo DC direto;
 - exportação dos resultados em CSV;
+- exportação visual da página em PDF por meio da impressão do navegador;
 - exportação e importação do projeto completo em JSON.
 
 O resultado geral soma todos os grupos configurados. Quando o inversor está ligado, sua eficiência e seu limite AC são aplicados à potência combinada dos grupos.
@@ -137,7 +140,7 @@ Unidades: potência em Wp, dimensões em metros, `gamma` em %/°C, `noct` em °C
 
 ## Projetos exportados
 
-O formato atual é a versão 2 e inclui configurações, grupos e, quando carregados, dados meteorológicos. Não existe migração automática de versões anteriores.
+O formato atual é a versão 3 e inclui configurações, grupos, suas cores e, quando carregados, dados meteorológicos. Não existe migração automática de versões anteriores.
 
 ## Limitações
 

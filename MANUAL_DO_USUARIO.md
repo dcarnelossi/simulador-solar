@@ -89,6 +89,7 @@ O botão **Inverter largura ↔ comprimento** troca as dimensões do módulo. As
 - **NOCT:** parâmetro usado para aproximar a temperatura da célula;
 - **Bifacialidade:** capacidade relativa da face traseira;
 - **Exposição traseira:** fator de 0 a 1 que reduz o ganho traseiro ideal.
+- **Cor do grupo:** cor exclusiva usada nos módulos do canvas 3D, nas barras mensais e na curva diária do grupo.
 
 ## 6. Orientação e visualização 3D
 
@@ -125,13 +126,21 @@ O card **Resultados da simulação** agrega todos os grupos e apresenta:
 - **kWp instalados:** soma da potência nominal dos módulos;
 - **kW médios na hora selecionada:** potência estimada para a hora típica equivalente.
 
-O primeiro gráfico apresenta a produção de cada mês e uma linha tracejada com a média mensal anual. A tabela informa produção mensal e média diária de cada mês.
+O gráfico **Potência na data selecionada** mostra uma curva em kW para cada grupo, usando a cor escolhida, e uma curva branca mais espessa para a soma do sistema. A linha vertical azul marca a hora selecionada; os pontos coloridos mostram cada grupo e o ponto branco mostra o total. Ao mover o cursor pelo gráfico, o tooltip arredonda para a hora mais próxima e apresenta a potência de cada grupo e a soma. A curva combina a posição solar da data selecionada com os registros horários equivalentes do TMY.
 
-O gráfico **Potência na data selecionada** mostra a curva estimada em kW desde o nascer até o pôr do sol. A linha vertical azul marca a hora escolhida e informa a potência correspondente. A curva combina a posição solar da data selecionada com os registros horários equivalentes do TMY.
+O gráfico **Produção mensal por grupo** utiliza barras empilhadas. Cada cor representa um grupo e a altura completa da barra é a soma do projeto. Passe o mouse sobre um segmento para visualizar a produção do grupo, sua participação percentual e o total daquele mês. A linha tracejada representa a média mensal do total. Com apenas um grupo, cada barra possui uma única cor.
+
+A tabela informa a produção mensal total e a média diária de cada mês.
 
 A potência horária usa o registro do TMY mais próximo da hora escolhida, arredondado para a hora cheia. Ela não informa quanto o sistema está produzindo neste momento e não é previsão meteorológica.
 
 ## 9. Exportação e importação
+
+### Exportar PDF
+
+O botão **Exportar PDF** prepara uma reprodução visual da página em uma única folha A2 vertical e abre a janela de impressão do navegador. Escolha **Salvar como PDF** como destino. Para preservar o visual escuro, mantenha habilitada a opção de imprimir gráficos ou cores de fundo.
+
+O aplicativo calcula automaticamente uma escala para acomodar o conteúdo atual em uma página. Projetos com muitos campos ou conteúdo excepcionalmente longo podem ficar com texto menor no PDF.
 
 ### Exportar projeto
 
@@ -139,7 +148,7 @@ Baixa `projeto-solar.json` com configurações, grupos e dados meteorológicos c
 
 ### Importar projeto
 
-Clique em **Importar projeto** e escolha um JSON exportado pelo aplicativo. Somente o formato atual, versão 2, é aceito.
+Clique em **Importar projeto** e escolha um JSON exportado pelo aplicativo. Somente o formato atual, versão 3, é aceito.
 
 ### Exportar resultados CSV
 
