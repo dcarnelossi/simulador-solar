@@ -95,6 +95,8 @@ O botão **Inverter largura ↔ comprimento** troca as dimensões do módulo. As
 
 O canvas exibe todos os módulos do grupo selecionado, sua face frontal, cotas, referências cardeais e trajetória solar.
 
+No cabeçalho do card, o botão central alterna entre **3D ortogonal** e **Planta**. As setas laterais giram a câmera em passos de 15°, permitindo observar o arranjo por outros lados e reposicionar visualmente o norte. Esses controles mudam apenas o ponto de vista; não alteram azimute, inclinação, rotação ou produção calculada.
+
 - **Inclinação:** 0° para cima, 90° vertical e 180° para baixo;
 - **Azimute:** norte 0°, leste 90°, sul 180° e oeste 270°;
 - **Rotação no plano:** muda a disposição visual entre retrato, paisagem e ângulos intermediários.

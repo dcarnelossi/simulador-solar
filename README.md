@@ -60,7 +60,7 @@ gcloud run deploy simulador-solar --source . --region us-central1 --project simu
 - múltiplos grupos de módulos com quantidade, linhas e distância configuráveis;
 - cor exclusiva configurável para cada grupo, compartilhada pelo 3D e pelos gráficos;
 - inclinação, azimute e rotação independentes por grupo;
-- visualização 3D da matriz completa, cotas e trajetória solar;
+- visualização da matriz em 3D ortogonal ou planta, com câmera giratória, cotas e trajetória solar;
 - data e hora locais selecionáveis, com posição, nascer e pôr do sol;
 - estimativa anual, mensal, média diária e potência na hora selecionada;
 - curva diária de potência entre o nascer e o pôr do sol, com marcação da hora escolhida;
