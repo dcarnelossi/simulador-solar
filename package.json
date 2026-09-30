@@ -1,0 +1,15 @@
+{
+  "name": "simulador-solar",
+  "version": "1.0.0",
+  "description": "Calculadora de energia solar com orientação livre e TMY PVGIS",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": true
+}

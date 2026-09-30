@@ -1,0 +1,90 @@
+[
+  {
+    "id": "weg-proposta-615-bifacial",
+    "brand": "WEG",
+    "model": "615W Bifacial",
+    "wp": 615,
+    "width": 1.134,
+    "height": 2.382,
+    "gamma": -0.35,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "Proposta 00507093",
+    "notes": "A proposta informa potência, dimensões e construção bifacial, mas não o fator de bifacialidade nem os parâmetros térmicos; mantidos os valores conservadores anteriores e 0% de ganho traseiro."
+  },
+  {
+    "id": "weg-wpv-550-hmm3",
+    "brand": "WEG",
+    "model": "WPV 550 HMM3",
+    "wp": 550,
+    "width": 1.134,
+    "height": 2.278,
+    "gamma": -0.35,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "https://static.weg.net/medias/downloadcenter/h8b/h0d/WEG-wpv-550-555-hmm3-datasheet-pt.pdf"
+  },
+  {
+    "id": "weg-wpv-555-hmm3",
+    "brand": "WEG",
+    "model": "WPV 555 HMM3",
+    "wp": 555,
+    "width": 1.134,
+    "height": 2.278,
+    "gamma": -0.35,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "https://static.weg.net/medias/downloadcenter/h8b/h0d/WEG-wpv-550-555-hmm3-datasheet-pt.pdf"
+  },
+  {
+    "id": "weg-wpv-550-hmm0",
+    "brand": "WEG",
+    "model": "WPV 550 HMM0",
+    "wp": 550,
+    "width": 1.134,
+    "height": 2.278,
+    "gamma": -0.33,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "https://static.weg.net/medias/downloadcenter/h13/he1/WEG-wpv-550-555-hmm0-datasheet-pt.pdf",
+    "notes": "A ficha informa as condições NMOT, mas não explicita sua temperatura no quadro; mantido NOCT de 45°C como valor conservador."
+  },
+  {
+    "id": "ztroon-ztp-360mi",
+    "brand": "ZTROON",
+    "model": "ZTP-360MI",
+    "wp": 360,
+    "width": 0.88,
+    "height": 1.87,
+    "gamma": -0.34,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "https://www.neosolar.com.br/amfile/file/download/file/438/product/797056/"
+  },
+  {
+    "id": "ztroon-ztp-450mi",
+    "brand": "ZTROON",
+    "model": "ZTP-450MI Bifacial",
+    "wp": 450,
+    "width": 1.134,
+    "height": 1.722,
+    "gamma": -0.34,
+    "noct": 45,
+    "bifacial": 0,
+    "source": "https://www.neosolar.com.br/amfile/file/download/file/439/product/796346/",
+    "notes": "A ficha identifica o módulo como bifacial, mas não informa o fator de bifacialidade; mantido em 0% para não presumir ganho traseiro."
+  },
+  {
+    "id": "znshine-zxn8-bd132-730",
+    "brand": "ZNSHINE",
+    "model": "ZXN8-BD132-730 Bifacial",
+    "wp": 730,
+    "width": 1.303,
+    "height": 2.384,
+    "gamma": -0.3,
+    "noct": 43,
+    "bifacial": 80,
+    "source": "https://www.neosolar.com.br/amfile/file/download/file/461/product/796315/",
+    "notes": "Fator de bifacialidade nominal de 80% com tolerância de ±10% conforme a ficha técnica."
+  }
+]
