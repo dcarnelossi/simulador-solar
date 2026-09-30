@@ -54,7 +54,7 @@ gcloud run deploy simulador-solar --source . --region us-central1 --project simu
 
 ## Principais recursos
 
-- seleção da localização por coordenadas, colagem de latitude/longitude ou mapa;
+- seleção da localização por coordenadas, colagem de latitude/longitude ou mapa com camadas cartográfica e de satélite;
 - consulta do ano meteorológico típico (TMY) do PVGIS;
 - catálogo de módulos mantido em `panels.json`;
 - múltiplos grupos de módulos com quantidade, linhas e distância configuráveis;
@@ -154,3 +154,4 @@ Os resultados são estimativas teóricas e preliminares. Não constituem garanti
 - [NOAA — equações de posição solar](https://gml.noaa.gov/grad/solcalc/solareqns.PDF)
 - [Leaflet](https://leafletjs.com/)
 - [OpenStreetMap](https://www.openstreetmap.org/)
+- [Esri World Imagery](https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer)

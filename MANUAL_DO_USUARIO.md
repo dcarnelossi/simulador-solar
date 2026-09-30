@@ -28,6 +28,8 @@ Há três formas de informar a posição:
 - colar os dois valores no campo `latitude, longitude`;
 - clicar em **Selecionar no mapa**, escolher um ponto e confirmar.
 
+No canto superior direito do mapa, escolha **Mapa** para a cartografia do OpenStreetMap ou **Satélite** para as imagens do Esri World Imagery. A seleção da coordenada funciona da mesma forma nas duas camadas.
+
 As coordenadas usam graus decimais. Valores ao sul e a oeste são negativos. Exemplo:
 
 ```text
@@ -168,7 +170,7 @@ Verifique a internet, as coordenadas e tente novamente. O serviço externo pode 
 
 ### O mapa não aparece
 
-Leaflet e as imagens do OpenStreetMap são carregados pela internet. Verifique conexão, bloqueadores de conteúdo e acesso aos domínios `unpkg.com` e `tile.openstreetmap.org`.
+Leaflet, OpenStreetMap e a camada de satélite são carregados pela internet. Verifique conexão, bloqueadores de conteúdo e acesso aos domínios `unpkg.com`, `tile.openstreetmap.org` e `services.arcgisonline.com`.
 
 ### Catálogo indisponível
 
